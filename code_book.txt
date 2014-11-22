@@ -1,0 +1,23 @@
+run_analysis.R Code Book
+
+======================
+
+Here is a list of variables in order in which they are used in the R Script and what they do:
+
+- colnames: table of variable names from the features.txt file
+- test: table of the X_test.txt with the colnames included
+- train: table of the Y_test.txt with the colnames included
+- joineddata: combination of test and train tables
+- meancols: list of column numbers in joineddata that contains the word "mean"
+- stdcols: list of column numbers in joineddata that contains the word "std"
+- subsetcols: combined and sorted list of meancols and stdcols
+- trainacts: table of activities from y_train.txt
+- trainsubjects: table of subjects from subject_train.txt
+- testacts: table of activities from y_test.txt 
+- testsubjects: table of subjects from subject_test.txt
+- activities: table combining trainacts and testacts
+- subjects: table combining trainsubjects and testsubjects
+- activity_labels: a list of chr strings
+- tidy_data: data frame for the averaged means and standard deviations
+- count: int counts number of times through the double for loop
+- parseddata: table subsetted from joineddata by activity and subject
