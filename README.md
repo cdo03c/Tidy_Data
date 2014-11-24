@@ -2,6 +2,7 @@ Tidy_Data R Script
 Version 1.0
 =========
 
+To run, download the script, load it into R, and type run_analysis().  The script will do the rest.
 
 This repository contains a R Script, final data set, code book, and README for the Getting and Cleaning Data course project through Coursera and Johns Hopkins University.
 
